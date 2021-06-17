@@ -78,7 +78,7 @@ class Car
 	{
 		if(v == "x") //Moving on x
 		{
-			d *= 2;
+			d *= 10;
 
 			this.x += d; //Changing position
 
@@ -141,7 +141,7 @@ var roads =
 var player = new Car("images/car.png", canvas.width / 2, canvas.height / 2, true); //Player's object
 
 
-var speed = 5;
+var speed = 10;
 
 Start();
 
